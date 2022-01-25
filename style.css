@@ -1,0 +1,64 @@
+body {
+  background-color: #d95550;
+  transition: 2s ease;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.tittle {
+  background-color: inherit;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.main {
+  padding: 0px 12px;
+  max-width: 620px;
+  margin: auto;
+}
+
+.content {
+  background-color: #dd6662;
+  padding: 20px 0px 30px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 20rem;
+  margin-top: 3rem;
+  transition: 2s ease;
+}
+.clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+.btn {
+  cursor: pointer;
+  transition: color 0.5s ease-in-out 0s;
+  border: none;
+
+  border-radius: 4px;
+
+  font-family: ArialRounded;
+  font-size: 22px;
+  height: 55px;
+  color: rgb(217, 85, 80);
+  font-weight: bold;
+  width: 200px;
+  background-color: white;
+  margin-top: 5rem;
+  margin-left: 13rem;
+}
+
+@media screen and (max-width: 400px) {
+  .btn {
+    margin-left: 3rem;
+  }
+  .content {
+    height: 15rem;
+  }
+}
