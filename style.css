@@ -2,6 +2,7 @@ body {
   background-color: #d95550;
   transition: 2s ease;
   font-family: "Ubuntu", sans-serif;
+  opacity:0;
 }
 
 .tittle {
