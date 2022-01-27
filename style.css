@@ -57,7 +57,7 @@ body {
 
 @media screen and (max-width: 400px) {
   .btn {
-    margin-left: 3rem;
+    margin-left: 5rem;
     position: relative;
     bottom: 5rem;
   }
