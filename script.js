@@ -1,3 +1,8 @@
+window.onload = function () {
+  document.body.style.opacity = 100;
+  document.body.style.transition = "5s ease";
+};
+
 const take = document.querySelector(".timer");
 const bttn = document.querySelector(".btn");
 const reset = document.querySelector(".reset");
